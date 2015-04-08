@@ -10,13 +10,13 @@ html {
 }
 
 .masthead{
-  background-image: url("../images/masthead-bg.png");
-  background-size: 200px auto;
-  padding-top: 1em;
-  background-repeat:repeat;
-  background-position:left top;
-  text-align:center;
-  padding-bottom: 0em;
+  background-image: url("../images/logo.svg"), url("../images/logo.svg"), url("../images/masthead-bg.png");
+  background-size: 50px auto, 50px auto, 200px auto;
+  padding-top: 3em;
+  background-repeat:no-repeat, no-repeat, repeat;
+  background-position: right 50px, left 50px, left top;
+  display: block;
+  padding-bottom: 3.3em;
 }
 
 .beetle-1{
@@ -36,16 +36,23 @@ html {
 h1{
   font-weight: bold;
   font-size: 3em;
+  text-align: center;
+  color: #512200;
+  margin: 0;
 }
 
+nav{
+  float: left;
+  overflow: hidden;
+  width: 100%;
+}
 
 nav li{
-  list-style-type: none;
-  display: inline-block;
+  float: left;
+  margin: 0;
   width: 25%;
   text-align: center;
-  padding: 1em 1em;
-  width: 145px;
+  font-weight: bold;
 }
 
 ol li{
@@ -56,21 +63,26 @@ ol li{
 nav ol{
   padding: 0;
   margin: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 0.87em;
+  text-align: center;
+  text-decoration: none;
   background-color: #512200;
   opacity: 0.5;
-  font-weight: bold;
+  display: block;
+
 }
 
-a{
-  color: white;
-  text-decoration: none;
-  font-size: 2rem;
-}
-
-nav a:hover{
-  color: white;
-  text-decoration: none;
-  font-size: 2em;
+nav li:hover{
+  background-color: #512200;
+  opacity: 0.8;
 
 }
 
@@ -134,18 +146,60 @@ footer{
   background-color: rgba(81, 34, 0, 0.5);
 }
 
-.box {
-  background-color: #3b3a33;
-  padding: 1em;
+div {
+  padding: 0;
   text-align: center;
 }
 
-.btn{
+.btn-1{
   display: inline-block;
   padding: 0.5em 0.75em;
   text-decoration: none;
-  border-radius:10px;
+  border-radius:30px;
   color: #fff;
   background-color: #388200;
-  background-image: linear-gradient(to bottom, #388200, #6fc000);
+  background-image: linear-gradient(to bottom, #6fc000, #388200);
+  position: absolute;
+  z-index: 1000;
+  bottom: 2px;
+  left: 50px;
+}
+.btn-2{
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+  border-radius:30px;
+  color: #fff;
+  background-color: #388200;
+  background-image: linear-gradient(to bottom, #6fc000, #388200);
+  position: absolute;
+  z-index: 1000;
+  bottom: 2px;
+  left: 50px;
+}
+.btn-3{
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+  border-radius:30px;
+  color: #fff;
+  background-color: #388200;
+  background-image: linear-gradient(to bottom, #6fc000, #388200);
+  position: absolute;
+  z-index: 1000;
+  bottom: 2px;
+  left: 50px;
+}
+.btn-4{
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+  border-radius:30px;
+  color: #fff;
+  background-color: #388200;
+  background-image: linear-gradient(to bottom, #6fc000, #388200);
+  position: absolute;
+  z-index: 1000;
+  bottom: 2px;
+  left: 50px;
 }
