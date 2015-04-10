@@ -11,10 +11,10 @@ html {
 
 .masthead{
   background-image: url("../images/logo.svg"), url("../images/logo.svg"), url("../images/masthead-bg.png");
-  background-size: 30px auto, 30px auto, 200px auto;
+  background-size: 50px auto, 50px auto, 200px auto;
   padding-top: 3em;
   background-repeat:no-repeat, no-repeat, repeat;
-  background-position: calc(100%-15px) 25%, 15px, 25%, left top;
+  background-position: right 20%, left 20%, left top;
   display: block;
   padding-bottom: 3.3em;
 }
