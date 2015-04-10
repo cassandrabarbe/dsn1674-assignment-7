@@ -14,7 +14,7 @@ html {
   background-size: 50px auto, 50px auto, 200px auto;
   padding-top: 3em;
   background-repeat:no-repeat, no-repeat, repeat;
-  background-position: right 50px, left 50px, left top;
+  background-position: right 20%, left 20%, left top;
   display: block;
   padding-bottom: 3.3em;
 }
@@ -83,7 +83,6 @@ nav a{
   background-color: #512200;
   opacity: 0.5;
   display: block;
-
 }
 
 nav li:hover{
